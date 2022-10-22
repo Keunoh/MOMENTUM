@@ -1,10 +1,8 @@
-const a = 5;
-const b = 2;
-const myName = "keunoh";
+const age = 97;
 
-console.log(a + b);
-console.log(a * b);
-console.log(a / b);
-console.log(a % b);
+function calculateKrAge(ageOfForeiner){
+    return ageOfForeiner + 2;
+}
 
-console.log("hello " + myName);
+const krAge = calculateKrAge(age);
+console.log(krAge);
