@@ -39,3 +39,22 @@ This is my first JS Project! So Excited~!
 			console.log("Hello!");  
 		}  
 	};
+
+2. JavaScript와 document
+	: f12에서 document(해당 페이지의 html의미)를 입력하면 html객체를 볼 수 있다.  
+
+	: console.dir(document) 하면 객체를 좀더 상세히 볼 수 있다.  
+	자바스크립트에서 html에 접근할 수 있는 방법  
+	
+	: 해당 객체의 property에 값을 arrangement 할 수도 있다!!  
+	ex) document.title = 'Hello from console' <- 웹페이지 탭 이름 변함   
+	document.location <- html path 알 수 있다.  
+	document.body <-  body부분 확인할 수 있다.  
+	document.getElementById("") <- 괄호안에 입력한 element id구간을 가져온	다.  
+	document.getElementsByClassName("") <- 클래스 네임으로 여러개 가져옴  
+	document.getElementsByTagName("h1") <- 태그네임으로 가져옴  
+  
+	* 노마드가 좋아하는 방법  
+	ex) document.querySelector(".hello h1") -> className hello이고 h1가져옴
+	querySelector는 element를 css방식으로 검색할 수 있다. 
+	클래스 이름이 중복되는 경우 가장 첫 번째 element가져온다.
