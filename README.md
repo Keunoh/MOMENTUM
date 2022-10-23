@@ -22,21 +22,21 @@ This is my first JS Project! So Excited~!
 	은 불가능하다.
 
 	* function 함수이름(파라미터(그냥 변수 이름만)) { 원하는 기능 }  
-	ex) function sayHello(name){  
-		console.log("Hello! " + name);  
+	ex) function sayHello(name) {  
+	&nbsp;	console.log("Hello! " + name);  
 	}
 	
 	* 함수에서 값을 리턴 받을 수도 있다.  
-	ex) function add(a, b){  
-		return a + b;  
+	ex) function add(a, b) {  
+	&nbsp;	return a + b;  
 	}  
 	return이 되는 순간 함수는 종료된다.
 
 	* object안에 function 넣기  
 	ex) const player = {  
-		name: "keunoh"  
-		sayHello: function () {  
-			console.log("Hello!");  
+	&nbsp;	name: "keunoh"  
+	&nbsp;	sayHello: function () {  
+	&nbsp;&nbsp;		console.log("Hello!");  
     &nbsp;	}  
 	};
 
