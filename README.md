@@ -59,3 +59,14 @@ This is my first JS Project! So Excited~!
 	ex) document.querySelector(".hello h1") -> className hello이고 h1가져옴
 	querySelector는 element를 css방식으로 검색할 수 있다. 
 	클래스 이름이 중복되는 경우 가장 첫 번째 element가져온다.
+
+3. `html에서 css와 js를 import하는 것이다!(* 매우 중요)`
+
+4. `h1과 같은 element 메서드`
+	* h1.classList.contains("") -> 괄호 안에 해당 className이 있다면 true반환
+
+	* h1.classList.remove("") -> 해당 className을 삭제
+
+	* h1.classList.add("") -> 해당 className을 추가
+	
+	* h1.classList.toggle("") -> classList를 확인해서 클래스가 없으면 추가해주고 있다면 삭제한다.
