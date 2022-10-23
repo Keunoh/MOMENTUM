@@ -34,7 +34,7 @@ This is my first JS Project! So Excited~!
 
 	* object안에 function 넣기  
 	ex) const player = {  
-	&nbsp;	name: "keunoh"  
+	&nbsp;	name: "keunoh",  
 	&nbsp;	sayHello: function () {  
 	&nbsp;&nbsp;		console.log("Hello!");  
     &nbsp;	}  
