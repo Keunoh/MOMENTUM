@@ -37,7 +37,7 @@ This is my first JS Project! So Excited~!
 		name: "keunoh"  
 		sayHello: function () {  
 			console.log("Hello!");  
-		}  
+    	}  
 	};
 
 2. `JavaScript와 document`   
