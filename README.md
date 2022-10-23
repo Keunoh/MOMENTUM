@@ -1,7 +1,7 @@
 # MOMENTUM
 This is my first JS Project! So Excited~! 
 
-1. `Basic Information` 
+1. `Basic Information`   
 	자바스크립트는 브라우저에 내장되어있다!   
 	Browser는 HTML을 불러오고 HTML은 CSS와 JS를 불러온다   
 	HTML이 접착제 느낌
@@ -40,7 +40,7 @@ This is my first JS Project! So Excited~!
 		}  
 	};
 
-2. `JavaScript와 document` 
+2. `JavaScript와 document`   
 	f12에서 document(해당 페이지의 html의미)를 입력하면 html객체를 볼 수 있다.  
 
 	* console.dir(document) 하면 객체를 좀더 상세히 볼 수 있다.  
@@ -66,7 +66,7 @@ This is my first JS Project! So Excited~!
 
 3. `결국 html에서 css와 js를 import하는 것이다!(* 매우 중요)`
 
-4. `h1과 같은 element 메서드`
+4. `h1과 같은 element 메서드`  
 	* h1.classList.contains("") -> 괄호 안에 해당 className이 있다면 true반환
 
 	* h1.classList.remove("") -> 해당 className을 삭제
