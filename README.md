@@ -45,6 +45,7 @@ This is my first JS Project! So Excited~!
 
 	* console.dir(document) 하면 객체를 좀더 상세히 볼 수 있다.  
 	자바스크립트에서 html에 접근할 수 있는 방법  
+	자바스크립트 관점에서 html객체를 바라보는 것이다.  
 	
 	* 해당 객체의 property에 값을 arrangement 할 수도 있다!!  
 	ex) document.title = 'Hello from console' <- 웹페이지 탭 이름 변함   
