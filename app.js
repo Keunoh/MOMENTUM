@@ -1,8 +1,7 @@
-const age = 97;
+const h1 = document.querySelector("div.hello:first-child h1");
 
-function calculateKrAge(ageOfForeiner){
-    return ageOfForeiner + 2;
+function handleTitleClick() {
+    h1.classList.toggle("clicked");
 }
 
-const krAge = calculateKrAge(age);
-console.log(krAge);
+h1.addEventListener("click", handleTitleClick);
