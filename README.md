@@ -74,3 +74,23 @@ This is my first JS Project! So Excited~!
 	* h1.classList.add("") -> 해당 className을 추가
 
 	* h1.classList.toggle("") -> classList를 확인해서 클래스가 없으면 추가해주고 있다면 삭제한다.
+
+5. `submit은 기본적으로 브라우저를 새로고침한다.`
+	* function 안에 tomato.preventDefault();를 적어주면 새로고침을 막아준다.
+	
+	* addEventListener("submit", myFunction); <- 이 라인에서 myFunction에
+	있는 parameter에 아무 변수명이나 적어준다음 
+	
+	* ex) console.log(tomato)를 하면 해당 function에 정보를 참조 할 수 있다.
+
+
+6. `브라우저가 event를 대신 실행시켜준다. (* 중요)`
+	* addEventListener에서 브라우저가 함수를 대신 실행시켜주는 것이다.
+
+7. `방법(JS에서 innerText)`
+	* 둘 다 같은 방법이지만 아래를 선호한다.
+	
+	* greeting.innerText = "Hello " + username;
+    	greeting.innerText = `Hello ${username}`;
+	
+	* `` <- backticks
