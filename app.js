@@ -1,7 +1,15 @@
-const h1 = document.querySelector("div.hello:first-child h1");
+const loginForm = document.querySelector("#login-form");
+const loginInput = document.querySelector("#login-form input");
+const greeting = document.querySelector("#greeting");
 
-function handleTitleClick() {
-    h1.classList.toggle("clicked");
+const HIDDEN_CLASSNAME = "hidden";
+
+function onLoginSubmit(tomato) {
+    tomato.preventDefault();
+    const username = loginInput.value;
+    loginForm.classList.add(HIDDEN_CLASSNAME);
+    greeting.innerText = `Hello ${username} keep going!`;
+    greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
-h1.addEventListener("click", handleTitleClick);
+loginForm.addEventListener("submit", onLoginSubmit);
