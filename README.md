@@ -94,3 +94,17 @@ This is my first JS Project! So Excited~!
     	greeting.innerText = `Hello ${username}`;
 	
 	* `` <- backticks
+
+8. `interval` 
+	* 매 순간 일어나야 하는 무언가
+	
+	* ex) setInterval(sayHello, 5000); -> sayHello함수를 5초마다 실행함.
+	
+	* setTimeout(sayHello, 5000); -> 5초 후에 단 한번만 함수 실행
+
+9. `포맷`
+	* '1'.padStart(2, '0'); -> 2문자의 길이이고, 해당 문자가 1자리이면 0을채워준다.
+	
+	* "hello".padStart(20, "x");
+	
+	* String(new Date().getHours()) -> number를 string으로 변환
