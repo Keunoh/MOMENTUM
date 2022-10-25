@@ -119,3 +119,14 @@ This is my first JS Project! So Excited~!
 	* bgImage.src = `img/${chosenImage}`; -> 이미지 경로 설정해준다.
 	* document.body.appendChild(bgImage); -> body에 해당 이미지 생성해서 추	가 해준다.
 	* prependChild로 해주면 맨 위에 삽입할 수도 있다.
+
+11. `TODOLIST Concept`
+	1. toDoInput.value -> 사용자가 입력한 todolist의 value를 저장한다.
+	
+	2. span.innerText = newTodo -> 해당 value를 생성한 span element에 넣어	준다.
+	동시에 삭제 버튼(X)도 생성시킨다. 
+
+	3. event.target -> 어떤 버튼이 실행되었는가?
+	event.target.parentElement -> 해당 버튼의 부모 element는 무엇인가?
+	li.remove(); -> 해당 x버튼이 눌린 todolist를 삭제한다.
+	
