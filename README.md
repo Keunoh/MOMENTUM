@@ -129,4 +129,21 @@ This is my first JS Project! So Excited~!
 	3. event.target -> 어떤 버튼이 실행되었는가?  
 	event.target.parentElement -> 해당 버튼의 부모 element는 무엇인가?  
 	li.remove(); -> 해당 x버튼이 눌린 todolist를 삭제한다.
+
+12. JSON
+	* JSON.stringify() -> 괄호 안에 어떤 js객체가 있던 string 형태로 변환시켜준다.
+	* JSON.parse() -> 괄호 안에 있는 string을 array로 만들어준다.
+
+	* array(변수).forEach(메서드); -> 각각 변수마다 메서드를 실행해 준다.
+	* ex) 변수 array안에 있는 아이템이 3개라면 메서드를 각각 실행하여 총 세번 반복한다.
+
+	* (Arrow Function)
+	* 위 메서드를 array.forEach((item) => 메서드); -> 화살표 함수로도 바꿀 수 있고, 위와 동일한 결과를 반환한다.
 	
+	* array.filter(sexyFilter) -> filter도 기본적으로 forEach와 같이 모든 item을 순환한다. 그러나sexyFilter가 true를 반환해야 해당 item이 유지된다.
+	만약 false 반환 시 해당 item은 삭제된다.
+	
+	* ex) arr = [213, 2344, 5235, 234234, 1231]
+	* function sexyFilter(item) { return > 1000} 
+	* arr.filter(sexyFilter) -> item이 1000이상인 것만 true를 반환하므로 arr에서 1000이상 item만 값이 남게 된다. 즉, arr는 [2344, 5235, 234234, 1231]이 남게 된다.
+	* `filter는 새로운 arr를 반환하는 것이다. 기존의 arr는 유지된다.`
