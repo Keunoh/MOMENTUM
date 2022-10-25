@@ -108,3 +108,14 @@ This is my first JS Project! So Excited~!
 	* "hello".padStart(20, "x");
 	
 	* String(new Date().getHours()) -> number를 string으로 변환
+
+10. `JS 함수`
+	* Math.random() -> 0부터 1까지 실수를 랜덤하게 표현해줌
+	* Math.round() -> 해당 실수를 반올림해준다.
+	* Math.ceil() -> 실수를 올림
+	* Math.floor() -> 실수를 내림
+
+	* document.createElement("img") -> img태그를 생성해준다.
+	* bgImage.src = `img/${chosenImage}`; -> 이미지 경로 설정해준다.
+	* document.body.appendChild(bgImage); -> body에 해당 이미지 생성해서 추	가 해준다.
+	* prependChild로 해주면 맨 위에 삽입할 수도 있다.
