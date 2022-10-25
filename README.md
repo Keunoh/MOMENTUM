@@ -130,7 +130,7 @@ This is my first JS Project! So Excited~!
 	event.target.parentElement -> 해당 버튼의 부모 element는 무엇인가?  
 	li.remove(); -> 해당 x버튼이 눌린 todolist를 삭제한다.
 
-12. JSON
+12. `JSON`
 	* JSON.stringify() -> 괄호 안에 어떤 js객체가 있던 string 형태로 변환시켜준다.
 	* JSON.parse() -> 괄호 안에 있는 string을 array로 만들어준다.
 
