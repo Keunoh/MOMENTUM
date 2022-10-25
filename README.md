@@ -126,7 +126,7 @@ This is my first JS Project! So Excited~!
 	2. span.innerText = newTodo -> 해당 value를 생성한 span element에 넣어	준다.
 	동시에 삭제 버튼(X)도 생성시킨다. 
 
-	3. event.target -> 어떤 버튼이 실행되었는가?
-	event.target.parentElement -> 해당 버튼의 부모 element는 무엇인가?
+	3. event.target -> 어떤 버튼이 실행되었는가?  
+	event.target.parentElement -> 해당 버튼의 부모 element는 무엇인가?  
 	li.remove(); -> 해당 x버튼이 눌린 todolist를 삭제한다.
 	
