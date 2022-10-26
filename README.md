@@ -1,4 +1,4 @@
-# MOMENTUM
+# MOMENTUM (프로젝트 완료)
 This is my first JS Project! So Excited~! 
 
 1. `Basic Information`   
@@ -147,3 +147,11 @@ This is my first JS Project! So Excited~!
 	* function sexyFilter(item) { return > 1000} 
 	* arr.filter(sexyFilter) -> item이 1000이상인 것만 true를 반환하므로 arr에서 1000이상 item만 값이 남게 된다. 즉, arr는 [2344, 5235, 234234, 1231]이 남게 된다.
 	* `filter는 새로운 arr를 반환하는 것이다. 기존의 arr는 유지된다.`
+
+13. navigator 함수
+	* navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
+	* 성공 시 onGeoOk 함수 실행, 실패시 onGeoError 함수 실행
+
+14. weather
+	* https://openweathermap.org/current 에서 api를 이용해 불러올 수 있다.
+	* fetch(url) -> url을 JavaScript가 실행한다.
