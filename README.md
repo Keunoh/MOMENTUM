@@ -1,4 +1,3 @@
-# MOMENTUM (프로젝트 완료)
 This is my first JS Project! So Excited~! 
 
 1. `Basic Information`   
